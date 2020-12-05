@@ -9,8 +9,7 @@ OS：Linux (Ubuntu16.04)
 RTミドルウェア：OpenRTM-aist-2.0  
 ROS：ROS kinetic  
 ## 開発コンポーネント
-[RTMtoROS]()  
+### [RTMtoROS]()  
 ロボットアーム共通インターフェースのブリッジRTC
 RTM側のサービスポートからの情報をデータポートへと変換し，ROS TransportによりROS側へと送信する  
-
-[ManipulatorControlSample]
+### [ManipulatorControlSample]()
