@@ -14,6 +14,9 @@ ROS：ROS kinetic
 RTM側のサービスポートからの情報をデータポートへと変換し，ROS TransportによりROS側へと送信する  
 ### [ManipulatorControlSample]()  
 MOTOMAN-GP8の各軸の関節角度や手先位置などをCUIにて指定するサンプルコントローラRTC
+## サンプルスクリプト  
+### [motoman_gp8.py]()
+RTM側から受信した関節角度等の情報を受け取り，MOTOMAN-GP8を動作させるサンプルスクリプト  
 ## 設定ファイル  
 ### [RTMtoROS用設定ファイル]()  
 RTCとROSのノードを接続するための設定ファイル(rtc.conf)  
