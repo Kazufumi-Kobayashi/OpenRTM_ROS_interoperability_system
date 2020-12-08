@@ -29,6 +29,6 @@ RTCとROSのノードを接続するための設定ファイル(rtc.conf)
 [RTMtoROS仕様書]()  
 [ManipulatorControlSample仕様書]()  
 ### その他  
-[シミュレーション(MoveIt!)検証動画]()  
+[シミュレーション(rviz)検証動画]()  
 [実機検証動画]()  
 RTMコンテストプレゼン資料・・・準備中
