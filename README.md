@@ -5,9 +5,9 @@ OpenRTM-aist-2.0の機能であるROS Transportを活用したOpenRTMとROSに�
 一例としてROS対応マニピュレータであるMOTOMAN-GP8による検証を行った  
 ## 開発環境　　
 言語：C++，Python  
-OS：Linux (Ubuntu16.04)  
+OS：Linux (Ubuntu18.04)  
 RTミドルウェア：OpenRTM-aist-2.0  
-ROS：ROS kinetic  
+ROS：ROS melodic  
 ## 開発コンポーネント  
 ### [RTMtoROS]()  
 ロボットアーム共通インターフェースのブリッジRTC  
