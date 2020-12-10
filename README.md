@@ -9,13 +9,13 @@ OS：Linux (Ubuntu18.04)
 RTミドルウェア：OpenRTM-aist-2.0  
 ROS：ROS melodic  
 ## 開発コンポーネント  
-### [RTMtoROS]()  
+### [RTMtoROS](https://github.com/Kazufumi-Kobayashi/OpenRTM_ROS_interoperability_system/tree/master/RTC/RTMtoROS)  
 ロボットアーム共通インターフェースのブリッジRTC  
 RTM側のサービスポートからの情報をデータポートへと変換し，ROS TransportによりROS側へと送信する  
-### [ManipulatorControlSample]()  
+### [ManipulatorControlSample](https://github.com/Kazufumi-Kobayashi/OpenRTM_ROS_interoperability_system/tree/master/RTC/ManipulatorControlSample)  
 MOTOMAN-GP8の各軸の関節角度や手先位置をCUIにて指定するサンプルコントローラRTC
 ## サンプルスクリプト(ROS)  
-### [motoman_gp8.py]()
+### [motoman_gp8.py](https://github.com/Kazufumi-Kobayashi/OpenRTM_ROS_interoperability_system/tree/master/sample_scripts)
 RTM側から受信した関節角度等の情報を受け取り，MOTOMAN-GP8を動作させるROSのサンプルスクリプト     
 ## ドキュメント  
 ### マニュアル　　
