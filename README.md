@@ -29,6 +29,6 @@ RTMtoROSコンポーネントにおいて，RTCとROSのノードを接続する
 [RTMtoROS仕様書]()  
 [ManipulatorControlSample仕様書]()  
 ### その他  
-[シミュレーション(rviz)検証動画]()  
+シミュレーション(rviz)検証動画・・・準備中  
 実機検証動画・・・準備中  
 RTMコンテストプレゼン資料・・・準備中
