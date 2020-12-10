@@ -1,0 +1,33 @@
+Dec 10 13:38:22.888 INFO: manager: 2.0.0
+Dec 10 13:38:22.888 INFO: manager: Copyright (C) 2003-2020, Noriaki Ando and OpenRTM development team,
+Dec 10 13:38:22.888 INFO: manager:   Intelligent Systems Research Institute, AIST,
+Dec 10 13:38:22.888 INFO: manager: Copyright (C) 2020, Noriaki Ando and OpenRTM development team,
+Dec 10 13:38:22.888 INFO: manager:   Industrial Cyber-Physical Research Center, AIST,
+Dec 10 13:38:22.888 INFO: manager:   All right reserved.
+Dec 10 13:38:22.888 INFO: manager: Manager starting.
+Dec 10 13:38:22.888 INFO: manager: Starting local logging.
+Dec 10 13:38:22.898 WARNING: NamingOnCorba: No endpoint for the CORBA naming service (localhost) was found.
+Dec 10 13:38:22.898 INFO: NamingManager: NameServer connection succeeded: corba/localhost
+Dec 10 13:38:22.899 INFO: ManagerServant: Named manager reference (INS) was successfully created.
+Dec 10 13:38:22.902 WARNING: ManagerServant: Master manager not found
+Dec 10 13:38:22.903 INFO: LocalServiceAdmin: All the local services are enabled.
+Dec 10 13:38:22.948 INFO: ec_base: setRate(1000000.000000) done
+Dec 10 13:38:22.948 INFO: ec_base: setRate(400.000000) done
+Dec 10 13:38:22.948 INFO: RTMtoROS0: 1 execution context was created.
+Dec 10 13:38:22.953 INFO: RTMtoROS0: Initial active configuration set is default-set.
+Dec 10 13:38:22.958 ERROR: ROSOutPort: XML-RCP Error
+Dec 10 13:38:22.959 ERROR: InPortProvier: XML-RCP Error
+Dec 10 13:38:29.543 WARNING: SdoServiceAdmin: No available SDO service in the factory: 
+Dec 10 13:38:29.610 WARNING: SdoServiceAdmin: No available SDO service in the factory: IDL:OpenRTM/ComponentObserver:1.0
+Dec 10 13:38:32.970 INFO: ManagerServant: Master manager not found
+Dec 10 13:38:42.978 INFO: ManagerServant: Master manager not found
+Dec 10 13:38:52.985 INFO: ManagerServant: Master manager not found
+Dec 10 13:39:02.993 INFO: ManagerServant: Master manager not found
+Dec 10 13:39:13.000 INFO: ManagerServant: Master manager not found
+Dec 10 13:39:23.007 INFO: ManagerServant: Master manager not found
+Dec 10 13:39:33.017 INFO: ManagerServant: Master manager not found
+Dec 10 13:39:43.029 INFO: ManagerServant: Master manager not found
+Dec 10 13:39:53.037 INFO: ManagerServant: Master manager not found
+Dec 10 13:40:03.046 INFO: ManagerServant: Master manager not found
+Dec 10 13:40:03.063 ERROR: InPortProvier: unregisterSubscriber Error
+Dec 10 13:40:03.063 ERROR: ROSOutPort: unregisterPublisher Error
