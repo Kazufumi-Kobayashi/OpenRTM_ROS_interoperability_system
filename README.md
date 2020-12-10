@@ -20,7 +20,7 @@ RTM側から受信した関節角度等の情報を受け取り，MOTOMAN-GP8を
 ## 設定ファイル(rtc.conf)  
 ### [設定ファイル]()  
 RTMtoROSコンポーネントにおいて，RTCとROSのノードを接続するための設定ファイル(rtc.conf)  
-使用する環境に合わせて設定ファイル内のIPアドレス等を書き換えてください  
+使用する環境に合わせて設定ファイル内のIPアドレスの書き換えを行い，RTC実行ファイルと同じディレクトリに配置してください    
 ## ドキュメント  
 ### マニュアル　　
 [ROSでMotoman GP8を利用するための環境構築と動作確認](http://www1.meijo-u.ac.jp/~kohara/cms/technicalreport/ros_motoman_gp8_setup)  
