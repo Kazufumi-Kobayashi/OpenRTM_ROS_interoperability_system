@@ -16,11 +16,7 @@ RTM側のサービスポートからの情報をデータポートへと変換�
 MOTOMAN-GP8の各軸の関節角度や手先位置をCUIにて指定するサンプルコントローラRTC
 ## サンプルスクリプト(ROS)  
 ### [motoman_gp8.py]()
-RTM側から受信した関節角度等の情報を受け取り，MOTOMAN-GP8を動作させるROSのサンプルスクリプト  
-## 設定ファイル(rtc.conf)  
-### [設定ファイル]()  
-RTMtoROSコンポーネントにおいて，RTCとROSのノードを接続するための設定ファイル(rtc.conf)  
-使用する環境に合わせて設定ファイル内のIPアドレスの書き換えを行い，RTC実行ファイル(RTMtoROSComp)と同じディレクトリに配置してください    
+RTM側から受信した関節角度等の情報を受け取り，MOTOMAN-GP8を動作させるROSのサンプルスクリプト     
 ## ドキュメント  
 ### マニュアル　　
 [ROSでMotoman GP8を利用するための環境構築と動作確認](http://www1.meijo-u.ac.jp/~kohara/cms/technicalreport/ros_motoman_gp8_setup)  
