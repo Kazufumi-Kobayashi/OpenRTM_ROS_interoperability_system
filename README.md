@@ -17,7 +17,6 @@ MOTOMAN-GP8の各軸の関節角度や手先位置をCUIにて指定するサン
 ## サンプルスクリプト(ROS)  
 ### [motoman_gp8.py]()
 RTM側から受信した関節角度等の情報を受け取り，MOTOMAN-GP8を動作させるROSのサンプルスクリプト  
-/catkin_ws/src/motoman/motoman_gp8_moveit_config/にscriptsディレクトリを作成し,上記のmotoman_gp8.pyを配置の後chmod +xで権限
 ## 設定ファイル  
 ### [RTMtoROS用設定ファイル]()  
 RTCとROSのノードを接続するための設定ファイル(rtc.conf)  
