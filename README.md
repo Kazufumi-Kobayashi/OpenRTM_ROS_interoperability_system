@@ -20,7 +20,7 @@ RTM側から受信した関節角度等の情報を受け取り，MOTOMAN-GP8を
 ## ドキュメント  
 ### マニュアル　　
 [ROSでMotoman GP8を利用するための環境構築と動作確認](http://www1.meijo-u.ac.jp/~kohara/cms/technicalreport/ros_motoman_gp8_setup)  
-[RTMとROSを用いた物体操作システムマニュアル]()  
+[RTMとROSを用いた物体操作システムマニュアル](https://github.com/Kazufumi-Kobayashi/OpenRTM_ROS_interoperability_system/blob/master/Documents/Manual.pdf)  
 ### 仕様書  
 [RTMtoROS仕様書]()  
 [ManipulatorControlSample仕様書]()  
