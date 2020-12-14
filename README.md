@@ -5,6 +5,7 @@
 OpenRTM-aist-2.0の機能であるROS Transportを活用したOpenRTMとROSによる相互運用システム  
 開発コンポーネントはロボットアーム共通インターフェースのブリッジとして利用可能になるため，様々なROS対応のマニピュレータに適用可能  
 一例としてROS対応マニピュレータであるMOTOMAN-GP8による検証を行った  
+検証済みマニピュレータ(MOTOMAN-GP8,CRANE+V2,CRANE-X7)
 ## 開発環境　　
 言語：C++，Python  
 OS：Linux (Ubuntu18.04)  
