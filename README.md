@@ -15,7 +15,7 @@ RTM側のサービスポートからの情報をデータポートへと変換�
 ### [ManipulatorControlSample](https://github.com/Kazufumi-Kobayashi/OpenRTM_ROS_interoperability_system/tree/master/RTC/ManipulatorControlSample)  
 マニピュレータの各軸の関節角度や手先位置をCUIにて指定するサンプルコントローラRTC
 ## サンプルスクリプト(ROS)  
-### [motoman_gp8.py](https://github.com/Kazufumi-Kobayashi/OpenRTM_ROS_interoperability_system/tree/master/sample_scripts)
+### [m.py](https://github.com/Kazufumi-Kobayashi/OpenRTM_ROS_interoperability_system/tree/master/sample_scripts)
 RTM側から受信した関節角度等の情報を受け取り，マニピュレータを動作させるROSのサンプルスクリプト     
 ## ドキュメント  
 ### マニュアル　　
