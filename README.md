@@ -1,4 +1,6 @@
 # RTMとROSを用いた物体操作システム　　
+## 更新  
+サンプルスクリプトの名称変更、それに伴うマニュアルの変更  
 ## 概要　　
 OpenRTM-aist-2.0の機能であるROS Transportを活用したOpenRTMとROSによる相互運用システム  
 開発コンポーネントはロボットアーム共通インターフェースのブリッジとして利用可能になるため，様々なROS対応のマニピュレータに適用可能  
@@ -15,7 +17,7 @@ RTM側のサービスポートからの情報をデータポートへと変換�
 ### [ManipulatorControlSample](https://github.com/Kazufumi-Kobayashi/OpenRTM_ROS_interoperability_system/tree/master/RTC/ManipulatorControlSample)  
 マニピュレータの各軸の関節角度や手先位置をCUIにて指定するサンプルコントローラRTC
 ## サンプルスクリプト(ROS)  
-### [m.py](https://github.com/Kazufumi-Kobayashi/OpenRTM_ROS_interoperability_system/tree/master/sample_scripts)
+### [manip.py](https://github.com/Kazufumi-Kobayashi/OpenRTM_ROS_interoperability_system/tree/master/sample_scripts)
 RTM側から受信した関節角度等の情報を受け取り，マニピュレータを動作させるROSのサンプルスクリプト     
 ## ドキュメント  
 ### マニュアル　　
