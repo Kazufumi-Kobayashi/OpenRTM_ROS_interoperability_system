@@ -11,55 +11,25 @@ from sensor_msgs.msg import JointState
 from geometry_msgs.msg import Quaternion, Pose, PoseStamped, Vector3
 
 #grobal
-manip = moveit_commander.MoveGroupCommander("manip")
+manip = moveit_commander.MoveGroupCommander("motoman_gp8")
 
-# "jointPoint_1"
-def jointPoint_1(jointPos):
+# "jointPoint"
+def jointPoint(jointPos):
     
     print ("jointPos.data[0] =", jointPos.data[0])
-    joint_goal = manip.get_current_joint_values()
-    joint_goal[0] = jointPos.data[0]
-    print ("manip:", manip.go(joint_goal, wait=True))
-
-# "jointPoint_2"
-def jointPoint_2(jointPos):
-    
     print ("jointPos.data[1] =", jointPos.data[1])
-    joint_goal = manip.get_current_joint_values()
-    joint_goal[1] = jointPos.data[1]
-    print ("manip:",manip.go(joint_goal, wait=True))
-
-# "jointPoint_3"
-def jointPoint_3(jointPos):
-
     print ("jointPos.data[2] =", jointPos.data[2])
-    joint_goal = manip.get_current_joint_values()
-    joint_goal[2] = jointPos.data[2]
-    print ("manip",manip.go(joint_goal, wait=True))
-
-# "jointPoint_4"
-def jointPoint_4(jointPos):
-    
     print ("jointPos.data[3] =", jointPos.data[3])
-    joint_goal = manip.get_current_joint_values()
-    joint_goal[3] = jointPos.data[3]
-    print ("manip",manip.go(joint_goal, wait=True))
-
-# "jointPoint_5"
-def jointPoint_5(jointPos):
-    
     print ("jointPos.data[4] =", jointPos.data[4])
-    joint_goal = manip.get_current_joint_values()
-    joint_goal[4] = jointPos.data[4]
-    print ("manip",manip.go(joint_goal, wait=True))
-
-# "jointPoint_6"
-def jointPoint_6(jointPos):
-    
     print ("jointPos.data[5] =", jointPos.data[5])
     joint_goal = manip.get_current_joint_values()
+    joint_goal[0] = jointPos.data[0]
+    joint_goal[1] = jointPos.data[1]
+    joint_goal[2] = jointPos.data[2]
+    joint_goal[3] = jointPos.data[3]
+    joint_goal[4] = jointPos.data[4]
     joint_goal[5] = jointPos.data[5]
-    print ("manip",manip.go(joint_goal, wait=True))
+    print ("manip:", manip.go(joint_goal, wait=True))
 
 # "X axis"
 def jointPoint_X(carPos):
@@ -101,12 +71,7 @@ def arraycallback_jointPos(jointPos):
     #print ("Robot groups:", robot.get_group_names())
 
     #number joint
-    jointPoint_1(jointPos)
-    jointPoint_2(jointPos)
-    jointPoint_3(jointPos)
-    jointPoint_4(jointPos)
-    jointPoint_5(jointPos)
-    jointPoint_6(jointPos)
+    jointPoint(jointPos)
 
 def arraycallback_carPos(carPos):
 
